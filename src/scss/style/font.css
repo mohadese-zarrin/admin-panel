@@ -1,0 +1,113 @@
+@font-face {
+	font-family: "iransans";
+	font-style: normal;
+	font-weight: 700;
+    font-display: swap;
+	src: url('../../assets/fonts/woff/IRANSansX-Bold.woff') format('woff'),   
+	url('../../assets/fonts/woff2/IRANSansX-Bold.woff2') format('woff2');	 
+}
+@font-face {
+	font-family: "iransans";
+	font-style: normal;
+	font-weight: 400;
+    font-display: swap;
+	src: url('../../assets/fonts/woff/IRANSansX-Regular.woff') format('woff'),   
+	url('../../assets/fonts/woff2/IRANSansX-Regular.woff2') format('woff2');	
+}
+@font-face {
+	font-family: "pika";
+	font-style: normal;
+	font-weight: 700;
+    font-display: swap;
+	src: url('../../assets/fonts/pika/Pika-Light.woff') format('woff'),   
+	url('../../assets/fonts/pika/Pika-Light.eot') format('eot');	 
+}
+body, p, a, span, ul, div, li, h1, h2, h3, h4, h5, h6, button, input, select {
+    font-family: "iransans";
+}
+body, .submenu, .primerybtn, .secondrybtn, .settablerow select, input, textarea, select {
+    font-size: 1vw;
+}
+body, .submenu {
+    font-weight: 400;
+}
+i, i::before {
+    font-family: "pika"; 
+    font-style: normal;
+    font-size: 2vw;
+}
+i.producticon::before {
+    content: "\1f3ea";
+}
+i.homeicon::before {
+    content: "\1f589";
+}
+i.ordersicon::before {
+    content: "\1f6d2";
+}
+i.finicon::before {
+    content: "\1f45b";
+}
+i.customericon::before {
+    content: "\1f46a";
+}
+i.charticon::before {
+    content: "\1f4ca";
+}
+i.messageicon::before {
+    content: "\2709";
+}
+i.abouticon::before {
+    content: "\2139";
+}
+i.faqicon::before {
+    content: "\3f";
+}
+i.termsicon::before {
+    content: "\1f4dc";
+}
+i.settingicon::before {
+    content: "\2699";
+}
+i.logouticon::before {
+    content: "\1f6aa";
+}
+i.remove::before {
+    content: "\1f5d1";
+}
+i.pageicon::before {
+    content: "\1f4dc";
+}
+i.closeicon::before {
+    content: "\274c";
+}
+i.plusicon::before {
+    content: "\2b";
+}
+i.searchicon::after {
+    content: "\1f50d";
+}
+i.filtericon::after {
+    content: "\25d4";
+}
+.topsidebar p, .firstlevel.active {
+    font-size: 1.2vw;
+}
+.topsidebar p, .primerybtn, .secondrybtn {
+    font-weight: bold;
+}
+.firstlevel.active, .submenu .active {
+    font-weight: 700;
+}
+.breadcrumd a, .customizefileupload p {
+    font-size: 1.1vw;
+}
+p.inputdesc {
+    font-size: 0.9vw;
+}
+.listinput .lists .listitem i, .sectionrow .input > p, .customizefileupload p, .customizefileupload i::before, .sectionrow > .listinput > .title > p, p.switchtext, .propertyitem i.closeicon, .dataitemtitle, .searchandfilter .title, .linelist .linetitle, .propertylistitem {
+    font-weight: bold;
+}
+.customizefileupload i::before {
+    font-size: 10vw;
+}

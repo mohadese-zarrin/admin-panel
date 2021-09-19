@@ -1,0 +1,29 @@
+.check-box {
+  height: 20px;
+  width: 20px;
+  border: 1px solid #00BCE4;
+  border-radius: 6px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.check-box.checked {
+  background-color: #00BCE4;
+}
+
+.checkbox-label {
+  display: flex;
+  flex-direction: "row";
+  margin: 15px 0px;
+  align-items: center;
+}
+.checkbox-label span {
+  margin-right: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.mainLabel span {
+  color: #00BCE4;
+}

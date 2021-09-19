@@ -1,0 +1,11 @@
+.datalist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.dataitem {
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw;
+}

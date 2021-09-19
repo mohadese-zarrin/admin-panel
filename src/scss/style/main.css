@@ -1,0 +1,243 @@
+p {
+    margin: 0;
+}
+body, #root {
+    padding: 0;
+    margin: 0;
+	direction: rtl;
+    background: #FCFCFC;
+    display: flex;
+    text-align: right;
+}
+aside {
+    display: flex;
+    width: 20vw;
+    flex-direction: column;
+    right: 0;
+    top: 0;
+    background: #FCFCFC;
+    box-shadow: -10px 0 10px rgb(0 0 0 / 3%);
+    color: #111;
+    overflow: auto;
+    padding: 1.5vw;
+    z-index: 200;
+}
+.topsidebar {
+    display: flex;
+    top: 0;
+    right: 0;
+    flex-direction: row;
+    height: 6vw;
+    align-items: center;
+}
+.profilepic {
+    background: #c0c0c0;
+    width: 4vw;
+    height: 4vw;
+    border-radius: 2vw;
+    margin: 1vw 0.5vw;
+}
+.sidebar {
+    line-height: 4vw;
+}
+ul {
+    list-style-type:none;
+    padding: 0;
+    margin: 0;
+}
+.firstlevel {
+    display: flex;
+}
+.firstlevel a {
+    text-decoration: none;
+    color: #111;
+
+}
+.firstlevel i {
+    margin: 0 0.5vw;
+}
+.firstlevel.active {
+    background-color: #FFF3EF;
+    color: #FC6A3E;
+    padding: 1vw;
+    border-radius: 1.5vw;
+    margin-bottom: 1vw;
+    flex-direction: column;
+}
+.firstlevel.active .menutitle a{
+    color: #FC6A3E;
+}
+.menutitle {
+    display: flex;
+    flex-direction: row;
+}
+.submenu {
+    padding-right: 2vw;
+    display: none;
+}
+.firstlevel.active .submenu {
+    display: block;
+}
+.submenu a {
+    color: #646464;
+}
+.submenu .active {
+    color: #FC6A3E;
+}
+header {
+    position: fixed;
+    height: 7vw;
+    width: 81vw;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-bottom: 1px solid #eee;
+    background: #FCFCFC;
+    z-index: 100;
+}
+header a.setting {
+    margin-left: 2vw;
+    text-decoration: none;
+    color: #111;
+}
+.primerybtn, .fullbtn {
+    background: #FC6A3E;
+    border: none;
+    padding: 1vw;
+    border-radius: 0.7vw;
+    color: white;
+    text-decoration: none;
+    min-width: 8vw;
+    text-align: center;
+}
+.primerybtn {
+    margin-left: 2vw;
+}
+.secondrybtn {
+    margin-left: 2vw;
+    background: none;
+    border: 1px solid #FC6A3E;
+    padding: 1vw;
+    border-radius: 0.7vw;
+    color: #FC6A3E;
+    text-decoration: none;
+    min-width: 8vw;
+    text-align: center;
+}
+.fullbtn {
+    width: 100%;
+}
+a.logout {
+    color: #111;
+    text-decoration: none;
+    
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+    margin-left: 2vw;
+}
+main {
+    width: 70vw;
+    margin-top: 8vw;
+    padding: 1vw;
+    z-index: 1;
+}
+.breadcrumd {
+    display: flex;
+}
+.breadcrumd li {
+    padding-right: 0.5vw;
+    display: flex;
+    align-items: center;
+}
+.breadcrumd a {
+    text-decoration: none;
+    color: #F56F47;
+}
+.breadcrumd i {
+    color: #F56F47;
+    padding-right: 0.5em;
+}
+section {
+    background: white;
+    margin: 1vw 3vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+}
+.sectionrow {
+    display: flex;
+    flex-direction: row;
+    margin: 2vw 0;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+
+
+
+
+
+.login-page {
+    display: flex;
+    /* flex: content; */
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.input-field-header {
+    padding: 8px;
+}
+
+table video {
+    width: 10vw;
+    height: 10vw;
+    border-radius: 1vw;
+    border: 1px solid #888;
+    object-fit: cover;
+}
+
+.modal {
+    display: block;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 100;
+    /* Sit on top */
+    /* padding-top: 100px; */
+    padding-right: 18vw;
+    left: 0;
+    top: 0;
+    width: 80vw;
+    /* Full width */
+    height: 100%;
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: white;
+    /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}

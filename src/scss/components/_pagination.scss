@@ -1,0 +1,27 @@
+.pagination{
+    .page-item{
+        a{
+            border: none
+        }
+        .page-link{
+            border:none
+        }
+        .page-link{
+            color: $normal-black;
+        }
+            &.disabled{
+                .page-link{
+                    color: $normal-black;
+                }
+            }
+            
+            &.active{
+                
+                .page-link{
+                    color: $main-color;
+                    background-color: white;
+                }
+            }
+        
+    }
+}

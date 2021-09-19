@@ -1,0 +1,23 @@
+.switch-item{
+    cursor: pointer;
+    background-color: $light-main-color;
+    border: 1px solid $main-color;
+    width: 70px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    color: $disable-text-color;
+    display: flex;
+    &.left{
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+    &.right{
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    &.active{
+        color: white;
+        background-image: linear-gradient(90deg, $end-main-color, $main-color);
+    }
+}

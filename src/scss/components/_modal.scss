@@ -1,0 +1,11 @@
+.modal-content{
+    border-radius: 1.2rem;
+    overflow: hidden;
+    border: 1px solid $main-color
+}
+.close-button{
+    position: absolute;
+    top: 5px;
+    right: 2rem;
+    color: $main-color;
+}

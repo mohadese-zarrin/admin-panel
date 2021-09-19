@@ -1,0 +1,361 @@
+@font-face {
+  font-family: 'Pika-Light';
+  src:  url('fonts/Pika-Light.eot?mtnxmu');
+  src:  url('fonts/Pika-Light.eot?mtnxmu#iefix') format('embedded-opentype'),
+    url('fonts/Pika-Light.ttf?mtnxmu') format('truetype'),
+    url('fonts/Pika-Light.woff?mtnxmu') format('woff'),
+    url('fonts/Pika-Light.svg?mtnxmu#Pika-Light') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Pika-Light' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Mute:before {
+  content: "\1f508";
+}
+.icon-UnMute:before {
+  content: "\1f50a";
+}
+.icon-whatsapp:before {
+  content: "\2706";
+}
+.icon-Pay:before {
+  content: "\1f4b3";
+}
+.icon-Instagram:before {
+  content: "\25ce";
+}
+.icon-teaser-order:before {
+  content: "\1f4fe";
+}
+.icon-transaction:before {
+  content: "\1f4b5";
+}
+.icon-Copy:before {
+  content: "\1f5c7";
+}
+.icon-Pen:before {
+  content: "\1f589";
+}
+.icon-coinorg:before {
+  content: "\1f4b0";
+}
+.icon-settlementorg:before {
+  content: "\1f4b1";
+}
+.icon-telephone:before {
+  content: "\1f57e";
+}
+.icon-Alarm-Clock:before {
+  content: "\23f0";
+}
+.icon-Arrow-Right:before {
+  content: "\27f6";
+}
+.icon-Ascending-Line:before {
+  content: "\1f4c8";
+}
+.icon-At-Sign:before {
+  content: "\40";
+}
+.icon-Bar-Chart:before {
+  content: "\1f4ca";
+}
+.icon-Bell:before {
+  content: "\1f514";
+}
+.icon-Bookmark:before {
+  content: "\1f4d1";
+}
+.icon-Bug:before {
+  content: "\1f41e";
+}
+.icon-Calendar:before {
+  content: "\1f4c5";
+}
+.icon-Cart:before {
+  content: "\1f6d2";
+}
+.icon-Chat:before {
+  content: "\1f4ac";
+}
+.icon-Compass:before {
+  content: "\1f9ed";
+}
+.icon-Cross:before {
+  content: "\274c";
+}
+.icon-Diamond:before {
+  content: "\1f48e";
+}
+.icon-Dollar:before {
+  content: "\24";
+}
+.icon-Exclamation-Mark:before {
+  content: "\21";
+}
+.icon-Exit-Full-Screen:before {
+  content: "\2906";
+}
+.icon-Eye:before {
+  content: "\1f441";
+}
+.icon-Fast-ForwardMedia:before {
+  content: "\23e9";
+}
+.icon-Filter:before {
+  content: "\25d4";
+}
+.icon-Floppy:before {
+  content: "\1f4be";
+}
+.icon-Full-Screen:before {
+  content: "\26f6";
+}
+.icon-Funnel:before {
+  content: "\25d5";
+}
+.icon-Gear:before {
+  content: "\2699";
+}
+.icon-Globe:before {
+  content: "\1f310";
+}
+.icon-Hamburger:before {
+  content: "\2630";
+}
+.icon-Headphone:before {
+  content: "\1f3a7";
+}
+.icon-Heart:before {
+  content: "\2764";
+}
+.icon-Home:before {
+  content: "\1f3e0";
+}
+.icon-Image:before {
+  content: "\1f304";
+}
+.icon-Information:before {
+  content: "\2139";
+}
+.icon-Instagram1:before {
+  content: "\e920";
+}
+.icon-Key:before {
+  content: "\1f511";
+}
+.icon-Link:before {
+  content: "\1f517";
+}
+.icon-Lock:before {
+  content: "\1f510";
+}
+.icon-Logout:before {
+  content: "\1f6aa";
+}
+.icon-Magnifier:before {
+  content: "\1f50d";
+}
+.icon-Man-Group2:before {
+  content: "\1f465";
+}
+.icon-Man-Group3:before {
+  content: "\1f46a";
+}
+.icon-Man:before {
+  content: "\1f464";
+}
+.icon-Message:before {
+  content: "\2709";
+}
+.icon-Microphone:before {
+  content: "\1f3a4";
+}
+.icon-Minus:before {
+  content: "\2796";
+}
+.icon-NextMedia:before {
+  content: "\23ed";
+}
+.icon-No-Entrance:before {
+  content: "\26d4";
+}
+.icon-Paper-Plane:before {
+  content: "\1f680";
+}
+.icon-Paper:before {
+  content: "\1f4dc";
+}
+.icon-PauseMedia .path1:before {
+  content: "\23f8";
+  color: rgb(255, 150, 182);
+}
+.icon-PauseMedia .path2:before {
+  content: "\23f9";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-PauseMedia .path3:before {
+  content: "\23fa";
+  margin-left: -1em;
+  color: rgb(255, 150, 182);
+}
+.icon-PauseMedia .path4:before {
+  content: "\23fb";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Percent:before {
+  content: "\25";
+}
+.icon-Phone:before {
+  content: "\1f4de";
+}
+.icon-Picture-Camera:before {
+  content: "\1f4f7";
+}
+.icon-Pie:before {
+  content: "\25d0";
+}
+.icon-Pin:before {
+  content: "\1f4cc";
+}
+.icon-Pinch-In:before {
+  content: "\1f5dc";
+}
+.icon-Pinch-Out:before {
+  content: "\2904";
+}
+.icon-Play-Button:before {
+  content: "\25b6";
+}
+.icon-Play-Video:before {
+  content: "\1f4fd";
+}
+.icon-Plus:before {
+  content: "\2b";
+}
+.icon-Pointer-Right:before {
+  content: "\3e";
+}
+.icon-Print:before {
+  content: "\1f5a8";
+}
+.icon-Prohibited:before {
+  content: "\1f6ab";
+}
+.icon-Question:before {
+  content: "\3f";
+}
+.icon-Rotate:before {
+  content: "\1f5d8";
+}
+.icon-Sandglass:before {
+  content: "\23f3";
+}
+.icon-Scan:before {
+  content: "\1f4e0";
+}
+.icon-Send:before {
+  content: "\27a4";
+}
+.icon-Share:before {
+  content: "\1f5a7";
+}
+.icon-Shield-Cross:before {
+  content: "\1f5f5";
+}
+.icon-Shield-Key:before {
+  content: "\1f5dd";
+}
+.icon-Shield-Lock:before {
+  content: "\1f512";
+}
+.icon-Shield-Minus:before {
+  content: "\23bd";
+}
+.icon-Shield-Plus:before {
+  content: "\1f540";
+}
+.icon-Shield-Tick:before {
+  content: "\1f5f9";
+}
+.icon-Shield:before {
+  content: "\1f6e1";
+}
+.icon-Shop:before {
+  content: "\1f3ea";
+}
+.icon-Shopping-Bag:before {
+  content: "\1f6cd";
+}
+.icon-Sort-AtoZ:before {
+  content: "\290a";
+}
+.icon-Sort:before {
+  content: "\27f1";
+}
+.icon-Speaker:before {
+  content: "\1f509";
+}
+.icon-Star:before {
+  content: "\2b50";
+}
+.icon-StopMedia:before {
+  content: "\25a3";
+}
+.icon-Suitcase:before {
+  content: "\1f4bc";
+}
+.icon-Tag:before {
+  content: "\1f3f7";
+}
+.icon-Thumb-Up:before {
+  content: "\1f44d";
+}
+.icon-Tick:before {
+  content: "\2705";
+}
+.icon-Ticket-Heart:before {
+  content: "\1f495";
+}
+.icon-Ticket-Star:before {
+  content: "\2728";
+}
+.icon-Ticket:before {
+  content: "\1f3ab";
+}
+.icon-Upload:before {
+  content: "\1f4e4";
+}
+.icon-Video-Camera:before {
+  content: "\1f3a5";
+}
+.icon-Wallet:before {
+  content: "\1f45b";
+}
+.icon-Warning:before {
+  content: "\26a0";
+}
+.icon-Wastebasket:before {
+  content: "\1f5d1";
+}
+.icon-Wrench:before {
+  content: "\1f527";
+}

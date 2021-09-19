@@ -1,0 +1,21 @@
+.ck{
+    &.ck-toolbar{
+        border:none !important;
+        background-color: white !important;
+        color: $main-color !important;
+        border-bottom: 1px solid $main-color !important;
+    }
+    &.ck-editor__main{
+        .ck-editor__editable{
+            border: none !important
+        }
+        
+    }
+    &.ck-editor__editable{
+        &:not(.ck-editor__nested-editable){
+            &.ck-focused{
+                box-shadow: none !important;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 3vw;
+}
+.tablinks {
+    padding: 1vw;
+    color: #747474;
+    background: none;
+    border: none;
+}
+.tablinks.active {
+    border-bottom: 2px solid #FC6A3E;
+    color: #FC6A3E;
+}
+.tabcontent {
+    width: 90%;
+}

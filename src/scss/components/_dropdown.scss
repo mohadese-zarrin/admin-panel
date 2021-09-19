@@ -1,0 +1,59 @@
+@keyframes height {
+    from {height: 0px ;}
+    to {height: auto}
+  }
+.c-dropdown{
+    position: relative;
+    .no-border-input{
+        padding: 0px;
+        margin: 0rem 1rem;
+        
+    } 
+    .count{
+        width: 30px;
+        text-align: center;
+    }
+    .c-option{
+        // @include box-shadow;
+        box-shadow: 0 0 15px 0 $light-main-color;
+        padding: 1rem .4rem ;
+        border-radius: 1rem;
+        position: absolute;
+        top:70px;
+        left:0;
+        z-index: 100;
+        background-color: white;
+        // min-height: 80px;
+        min-width: 3rem;
+        max-height: 200px;
+        overflow: auto;
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;
+        display: none;
+        z-index: 999;
+        &.active{
+            display: block;
+            -webkit-animation-duration: .6s;
+            animation-duration: .6s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            animation-name: height;
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+        option:hover{
+             background-color: $main-color;
+             color: white;
+        }
+        option.selected{
+            background-color: $main-color;
+            color: white;
+        }
+    }
+    .icon{
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+}

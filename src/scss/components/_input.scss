@@ -1,0 +1,62 @@
+.rounded-input{
+    width: 100%;
+    border: 1px solid $main-color;
+    height: 40px;
+    border-radius: 15px;
+    padding: 0rem 1rem;
+    color: $disable-text-color;
+    &.error{
+        border: 1px solid $danger-color;
+    }
+    &.time-input{
+        direction: ltr;
+    }
+    &.no-border-input{
+        border:none;
+        // padding: 0px;
+        color: $main-color;
+    }
+    &.dir-ltr{
+        direction: ltr;
+    }
+}
+.text-area{
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid $main-color;
+    min-height: 120px;
+    &:hover{
+        box-shadow: none;
+        border: 1px solid $main-color;
+    }
+}
+.time-input{
+    border: 0px;
+    color: $main-color;
+    width: 100%;
+    &.no-border{
+        width: 40px;
+        
+        button{
+            display:none
+        }
+        .react-time-picker__wrapper{
+            color: $main-color;
+            border:none;
+            input{color: $main-color;}
+        }
+    }
+    .react-time-picker__wrapper{
+        height: 40px;
+        border-radius: 15px;
+        width: 100%;
+        border: 1px solid $main-color;
+        .react-time-picker__inputGroup{
+            direction: ltr;
+        }
+    }
+}
+.error-label{
+    color: $danger-color;
+    font-size: 12px;
+}

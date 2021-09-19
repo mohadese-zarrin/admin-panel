@@ -1,0 +1,36 @@
+.chip-container{
+    padding: 0px 15px;
+    border: 1px solid $main-color;
+    background-color: $light-main-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 5px ;
+    .label{
+        margin-left: 10px;
+        color:$main-color;
+        cursor: pointer;
+    }
+    .service-label{
+        margin-left: 1rem;
+        font-size: .8rem;
+        cursor: pointer;
+    }
+    .action-label{
+        display: flex;
+        cursor: pointer;
+        align-items: center;
+        .danger{
+            color:$danger-color;
+            margin-right:.5rem;
+            font-size: .8rem;
+        }
+        .info{
+            color: $main-color;
+            margin-right:.5rem;
+            font-size: .8rem;
+        }
+    }
+}

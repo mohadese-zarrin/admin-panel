@@ -1,0 +1,30 @@
+.product-table{
+    background-color: red;
+    width: 100%;
+    // margin: 1vw auto;
+    overflow-x: auto;
+    thead{
+        th{
+            border: none;
+            font-size: 14px;
+            color: $main-color
+        }
+    }
+    td{
+        border: none;
+        font-size: 12px;
+        &.main-row{
+            color: $main-color;
+        }
+    }
+    .details{
+        color: $disable-text-color;
+    }
+    .avatar{
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: $disable-text-color;
+        overflow: hidden;
+    }
+}

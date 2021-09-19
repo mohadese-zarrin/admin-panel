@@ -1,0 +1,8 @@
+.c-input-calendar{
+    position: relative;
+    .c-calendar{
+        position: absolute;
+        top:40; 
+        z-index: 100;
+    }
+}

@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+.header{
+    // width: '100%';
+    padding: 25px;
+    background-color: aqua; 
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+}
+.header-admin-view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-admin{
+    width: 55px;
+    aspect-ratio: 1;
+    background-color: gray;
+    border-radius: 50px;
+    margin-left: 8px;
+}
+.admin-text{
+    font-weight:normal;
+    font-size: 16px;
+}
+.header-button-view{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90px;
+    // background-color: red;
+}

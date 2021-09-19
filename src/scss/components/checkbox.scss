@@ -1,0 +1,31 @@
+@import '../abstracts/variables';
+.check-box{
+    height: 20px; 
+    width: 20px; 
+    border: 1px solid $main-color; 
+    border-radius: 6px ; 
+    cursor:pointer; 
+    display:flex; 
+    justify-content:center; 
+    align-items:center;
+    &.checked{
+        background-color: $main-color;
+    }
+}
+
+.checkbox-label{
+    display: flex;
+    flex-direction: 'row';
+    margin: 15px 0px;
+    align-items: center;
+    span{
+        margin-right: 10px;
+        cursor: pointer;
+        margin-left: 5px;
+    }
+}
+.mainLabel{
+    span{
+        color: $main-color;
+    }
+}

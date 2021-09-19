@@ -1,0 +1,336 @@
+input, textarea, select {
+    border: 2px solid #9F9F9F;
+    border-radius: 0.5vw;
+}
+.w60 {
+    width: 60vw;
+}
+.w20 {
+    width: 20vw;
+}
+input, select {
+    height: 3vw;
+}
+textarea {
+    height: 10vw;
+}
+.sectionrow .input > p, .sectionrow > .listinput > .title > p, p.switchtext {
+    margin-left: 2vw;
+    width: 6vw;
+}
+.input {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+p.inputdesc {
+    color: #9F9F9F;
+    margin-top: 0.9vw;
+}
+.switches {
+    display: flex;
+    justify-content: space-between;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 6vw;
+    height: 3vw;
+    margin-right: 10vw;
+}
+  
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #e5e5e5;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 0.5vw;
+}
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 2.4vw;
+    width: 2.4vw;
+    left: 0.3vw;
+    bottom: 0.3vw;
+    border-radius: 0.5vw;
+    background-color: #b8b8b8;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+input:checked + .slider::before {
+    background-color: #FC6A3E;
+}
+input:focus + .slider {
+    box-shadow: 0 0 1px #FC6A3E;
+}
+input:checked + .slider:before {
+    -webkit-transform: translateX(3vw);
+    -ms-transform: translateX(3vw);
+    transform: translateX(3vw);
+}
+.switchtext {
+    margin-right: -5vw;
+    width: 5vw;
+}
+.propertylists {
+    display: flex;
+    flex-direction: column;
+    margin: 2vw;
+}
+propertylist {
+    margin: 2vw;
+}
+.propertyitem {
+    display: flex;
+    margin: 1vw 0;
+}
+.propertyitem i.closeicon {
+    color: #FC6A3E;
+}
+.propertyitemtitle {
+    width: 6vw;
+    min-width: max-content;
+    margin-left: 2vw;
+}
+.w50 {
+    width: 50vw;
+}
+.listinput .title, .listinput .title a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.listinput .title a {
+    text-decoration: none;
+    color: #FC6A3E;
+    margin-right: 2vw;
+}
+.listinput .lists {
+    display: flex;
+    flex-wrap: wrap;
+}
+.listinput .lists .listitem {
+    display: flex;
+    align-items: center;
+    background: #FFF4F0;
+    justify-content: space-between;
+    padding: 0.5vw 1vw;
+    border: 2px solid #FC6A3E;
+    border-radius: 1vw;
+    min-width: max-content;
+    margin: 1vw;
+}
+.listinput .lists .listitem i {
+    color: #FC6A3E;
+}
+.options {
+    display: flex;
+    flex-wrap: wrap;
+}
+.container {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 2.6vw;
+    margin-left: 2.6vw;
+    line-height: 3vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2vw;
+    width: 2vw;
+    background-color: #eee;
+    border-radius: 50%;
+    border: 2px solid #FC6A3E;
+}
+.container:hover input ~ .checkmark {
+    background-color: #FFF4F0;
+}
+.container input:checked ~ .checkmark {
+    background-color: white;
+}
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+.container .checkmark:after {
+    top: 0.5vw;
+    left: 0.5vw;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background: #FC6A3E;
+}
+.customizefileupload {
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #FC6A3E;
+    border-radius: 1vw;
+    color: #FC6A3E;
+}
+.fullwidth .customizefileupload {
+    width: 50vw;
+    margin-top: 3vw;
+}
+.fileupload input {
+    display: none;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 2vw;
+    overflow: hidden;
+    margin: 1vw;
+}
+.gallery .fileupload {
+    margin: 1vw;
+}
+.searchandfilter {
+    display: flex;
+}
+.searchandfilter .title {
+    width: 6vw;
+    min-width: max-content;
+    margin-left: 2vw;
+}
+.w40 {
+    width: 40vw;
+}
+.linelist {
+    padding: 3vw;
+}
+.linelist .catlist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.catlist .catlistitem {
+    display: flex;
+    align-items: center;
+    border: 2px solid #FC6A3E;
+    margin: 1vw;
+    padding: 1vw;
+    width: max-content;
+    min-width: 6vw;
+    border-radius: 1vw;
+    background: none;
+}
+.catlist .catlistitem.selected {
+    background: #FFF4F0;
+}
+.catlist .catlistitem i {
+    color: #FC6A3E;
+}
+.searchinput label {
+    display: flex;
+    align-items: center;
+}
+.searchinput .searchicon {
+    margin-left: -2.5vw;
+    z-index: 2;
+    color: #9f9f9f;
+}
+.searchinput label input {
+    padding: 0 3vw;
+}
+.propertylist {
+    margin: 2vw;
+}
+.propertylistitem {
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-right: 3vw;
+    margin-bottom: 2vw;
+    height: 2vw;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.propertylistitem input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+.checkboxmark {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 2vw;
+    width: 2vw;
+    border-radius: 0.5vw;
+    border: 2px solid #FC6A3E;
+}
+.propertylistitem:hover input ~ .checkboxmark {
+    background-color: #FFF4F0;
+}
+.propertylistitem input:checked ~ .checkboxmark {
+    background-color: #FC6A3E;
+}
+.checkboxmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.propertylistitem input:checked ~ .checkboxmark:after {
+    display: block;
+}
+.propertylistitem .checkboxmark:after {
+    left: 0.7vw;
+    top: 0.2vw;
+    width: 0.5vw;
+    height: 1vw;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+.conectoptions .container {
+    margin: 2vw 0;
+}
+.conectoptions .container .inputwithdesc .input input {
+    position: relative;
+    opacity: 100;
+    width: 40vw;
+    margin-right: 2vw;
+}
